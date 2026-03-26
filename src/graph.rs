@@ -70,7 +70,7 @@ impl Graph {
         let mut time_idx_end_list = Vec::new();
 
         println!("time range max: {}", self.scenario_data.time_period);
-
+        // Get a list of all time steps that will be a boundary of two partitions
         let mut timestamp_indices = get_timestamp_indices(
             partition size
         );
