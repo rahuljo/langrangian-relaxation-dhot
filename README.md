@@ -8,4 +8,4 @@ The main things that we show:
 - `graph.rs` — the `decompose` function captures the logic of how the full problem was decomposed into smaller subproblems 
 - `main.rs` — the `run_subgradient_method` function presents the implementation of the subgradient method
 
-The rest of the code (building the MIP, computing objectives, updating multipliers and subgradients) are proprietary and belong to Zuse Institut Berlin (ZIB). Some of those functions appear as stubs with a short description of what they do.
+The rest of the code (building the MIP, computing objectives, updating multipliers and subgradients) are proprietary or modify existing proprietary code which belong to Zuse Institut Berlin (ZIB). Some of those functions appear as stubs with a short description of what they do.
