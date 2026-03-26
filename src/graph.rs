@@ -78,7 +78,7 @@ impl Graph {
         timestamp_indices.push(self.scenario_data.time_period as usize);
 
         // Iterate through pairs of timestamp indices and create a subproblem
-        // with the this pir as the time horizon
+        // with this pair as the time horizon
         let mut idx_start = 0;
         for &t in timestamp_indices {
             let idx_end = std::cmp::min(t as u32, self.scenario_data.time_period);
