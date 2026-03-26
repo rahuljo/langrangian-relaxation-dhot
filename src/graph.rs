@@ -86,7 +86,7 @@ impl Graph {
             // Build the MIP submodel for this time horizon
             let mut model = self.create_mip(activate_output, idx_start, idx_end);
 
-            // If lp_relaxation is enabled then relax all integer constraints
+            // If lp_relaxation is enabled then relax all integrality constraints
             if lp_relaxation {
                 create_lp_relaxation(&mut model);
             }
